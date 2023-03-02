@@ -12,13 +12,15 @@
 <body class="bg-body-secondary">
     <!-- inizio header -->
     <header class="fixed-top d-flex align-items-center debug">
-        <img src="./img/logo.svg" alt="Logo">
-        <input class="form-control" type="text" placeholder="Prova a cercare: Lezioni di Laravel" id="search" name="search">
-        <div class="icon d-flex">
-            <i class="fa-solid fa-list-ul bg-white"></i>
-            <i class="fa-solid fa-circle-question"></i>
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-            <i class="fa-solid fa-bell"></i>
+        <div class="bg-white d-flex gap-3 w-100">
+            <img src="./img/logo.svg" alt="Logo" class="ms-2">
+            <input class="form-control bg-dark-subtle da-search" type="text" placeholder="&#xf002; Prova a cercare: Lezioni di Laravel" id="search" name="search">
+            <div class="icon d-flex align-items-center justify-content-between">
+                <i class="fa-solid fa-list-ul text-body-secondary pointer-event"></i>
+                <i class="fa-solid fa-circle-question text-body-secondary"></i>
+                <i class="fa-solid fa-ellipsis-vertical text-body-secondary"></i>
+                <i class="fa-solid fa-bell text-warning"></i>
+            </div>
         </div>
     </header>
     <!-- fine header -->
@@ -46,7 +48,33 @@
         </nav>
         <!-- main -->
         <main class="debug">
-            <div class="top-bar"></div>
+            <div class="top-bar container-fluid bg-primary text-white">
+                <div class="row py-4">
+                    <div class="col-12 col-md-6">
+                        <div>
+                            <h1 class="d-inline me-2">Boolean</h1>
+                            <span class="badge da-badge rounded-pill">Piano blaze</span>
+                        </div>
+                        <div class="pt-2">
+                            <span class="badge da-badge rounded-pill">3 app</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge da-badge rounded-pill">Boolean mobile app</span>
+                            <span class="badge da-badge rounded-pill">Boolean web app</span>
+                            <span class="badge da-badge rounded-pill">Boolean blog app</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                        <p class="fs-2 m-0">125</p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <span>Nuovo Studente</span>
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
             <section class="container-fluid pt-4">
                 <div class="row">
                     <div class="col-12 col-lg-8">
@@ -214,8 +242,8 @@
                                 </div>
                           </div>
                     </div>
-                    <div class="col-12 col-lg-4">2</div>
                 </div>
+                <div class="col-12 col-lg-4">2</div>
             </section>
         </main>
     </div>
