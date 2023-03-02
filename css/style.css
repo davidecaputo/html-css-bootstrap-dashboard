@@ -1,0 +1,26 @@
+.debug{
+    border: 1px solid black;
+}
+
+header{
+    height: 80px;
+}
+
+.wrapper{
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+#sidebar{
+    height: 100%;
+    width: 140px;
+    flex-shrink: 0;
+}
+
+main{
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
