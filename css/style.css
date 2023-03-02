@@ -46,6 +46,10 @@ main{
     margin-right: 10px;
 }
 
+.icon-red{
+    width: 4%;
+}
+
 .my-border{
     border: 1px solid lightgrey;
 }
