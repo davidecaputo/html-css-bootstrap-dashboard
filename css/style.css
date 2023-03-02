@@ -26,3 +26,12 @@ main{
     overflow-y: auto;
     height: 100%;
 }
+
+.icon{
+    width: 4%;
+    margin-right: 10px;
+}
+
+.my-border{
+    border: 1px solid lightgrey;
+}
