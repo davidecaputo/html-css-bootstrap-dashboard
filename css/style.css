@@ -1,3 +1,7 @@
+:root{
+    --bg-sidebar: #051e34;
+}
+
 .debug{
     border: 1px solid black;
 }
@@ -17,7 +21,7 @@ header{
     height: 100%;
     width: 140px;
     flex-shrink: 0;
-    background-color: #051e34;
+    background-color: var(--bg-sidebar);
     background-image: url(../img/sidebar-bg.png);
 }
 
