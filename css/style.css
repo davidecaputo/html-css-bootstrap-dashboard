@@ -1,11 +1,24 @@
 :root{
     --bg-sidebar: #051e34;
     --bg-badge: #165bba;
+    --bg-a: #828f9b;
 }
 
 .debug{
     border: 1px solid black;
 }
+
+/* hover */
+
+.bg-a{
+    background-color: transparent;
+}
+
+.bg-a:hover{
+    background-color: var(--bg-a);
+}
+
+/* general */
 
 header{
     height: 60px;
