@@ -10,9 +10,7 @@
 
 /* hover */
 
-.bg-a{
-    background-color: transparent;
-}
+
 
 .bg-a:hover{
     background-color: var(--bg-a);
@@ -39,6 +37,10 @@ header{
     background-image: url(../img/sidebar-bg.png);
 }
 
+.bg-a{
+    background-color: transparent;
+}
+
 main{
     flex-grow: 1;
     overflow-y: auto;
@@ -54,13 +56,18 @@ main{
     cursor: pointer;
 }
 
+.ret{
+    color: transparent;
+    background-color: transparent;
+}
+
 .icon{
     width: 6%;
     margin-right: 10px;
 }
 
 .icon-red{
-    width: 4%;
+    width: 6%;
 }
 
 .my-border{
