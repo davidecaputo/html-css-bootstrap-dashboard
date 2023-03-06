@@ -22,10 +22,19 @@
             <input class="form-control bg-dark-subtle da-search" type="text"
                 placeholder="&#xf002; Prova a cercare: Lezioni di Laravel" id="search" name="search">
             <div class="icon d-flex align-items-center justify-content-between">
-                <i class="fa-solid fa-list-ul text-body-secondary pointer-event"></i>
-                <i class="fa-solid fa-circle-question text-body-secondary"></i>
-                <i class="fa-solid fa-ellipsis-vertical text-body-secondary"></i>
-                <i class="fa-solid fa-bell text-warning"></i>
+                <a href="#"><i class="fa-solid fa-list-ul text-body-secondary pointer-event"></i></a>
+                <a href="#"><i class="fa-solid fa-circle-question text-body-secondary"></i></a>
+                <a href="#"><i class="fa-solid fa-ellipsis-vertical text-body-secondary"></i></a>
+                <div class="dropdown">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell text-warning"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
             </div>
         </div>
     </header>
